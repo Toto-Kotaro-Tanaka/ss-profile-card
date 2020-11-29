@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-top.svg);
+  background-position: -22rem -25rem, 45rem 25rem;
+  background-repeat: no-repeat;
+  font-family: 'Kumbh Sans', sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+h4, p {
+  margin: 0.5rem 0;
+}
+
+p {
+  color: hsl(0, 0%, 59%);
+  font-size: 0.8rem;
+}
+
+#container {
+  padding-top: 12rem;
+}
+
+#bg {
+  background-image: url(../images/bg-pattern-card.svg);
+  border-radius: .5rem .5rem 0 0;
+  height: 9.4rem;
+}
+
+#card {
+  background-color: #fff;
+  border-radius: .5rem;
+  height: 25rem;
+  margin: 0 auto;
+  text-align: center;
+  width: 22rem;
+}
+
+#bg-img {
+  background-color: #fff;
+  border: .35rem solid#fff;
+  border-radius: 50%;
+  margin: -3rem auto 0;
+  height: 6.25rem;
+  width: 6.25rem;
+}
+#image {
+  background: url(../images/image-victor.jpg);
+  border-color: #fff;
+  border-radius: 50%;
+  height: 100%;
+}
+
+#age {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+}
+
+hr {
+  background-color: hsl(0, 3%, 93%);
+  border: 1px solid hsl(0, 3%, 93%);
+  margin: 1.5rem 0;
+}
+
+#card ul {
+  padding: 0;
+}
+
+#card li {
+  display: inline;
+  float: left;
+  width: 33.33%;
+}
+
+.attribution {
+  margin-top: 9rem;
+}
